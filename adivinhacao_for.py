@@ -24,7 +24,7 @@ def jogar(): #codigo abaixo vira uma função criada pelo "def" >>>> função jo
         total_de_tentativas = 5#    total_de_tentativas = 5
     else:
         print("Escolha um nivel de dificuldade - (1) Fácil (2) Médio (3)Difícil ")
-
+    #for = para cada ***** #in =dentro do ***** # : = execulta isso
     for rodada in range(1, total_de_tentativas + 1): #laço for **** in range(***, *** + 1): >>>> criando a var rodada, função range(inicio da contagem, ate o maximo)
         #print("Tentativa",rodada,"de",total_de_tentativas) #concatenação, mostra mensagem com valores das var >>> 1°opção sem função
         print("Tentativa {} de {}".format(rodada,total_de_tentativas)) #concatenação, mostra mensagem com valores das var >>> 2°opção com função
